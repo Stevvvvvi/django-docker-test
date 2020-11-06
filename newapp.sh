@@ -1,0 +1,1 @@
+docker exec djangoserver python manage.py startapp greet
