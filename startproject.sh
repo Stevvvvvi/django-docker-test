@@ -1,0 +1,1 @@
+docker-compose run djangoserver django-admin startproject mysite .

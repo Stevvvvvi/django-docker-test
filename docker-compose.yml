@@ -1,0 +1,12 @@
+version: '3'
+
+services: 
+    djangoserver: 
+        container_name: djangoserver
+        build: .
+        # command: cd mysite && python manager.py runserver 0.0.0.0:8000
+        volumes: 
+            - .:/app
+        ports: 
+            - "8000:8000"
+
